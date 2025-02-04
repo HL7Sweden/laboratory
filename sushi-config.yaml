@@ -1,20 +1,22 @@
 # id: hl7.fhir.eu.eu-laboratory
-id: hl7.fhir.eu.laboratory
-canonical: http://hl7.eu/fhir/laboratory
-name:  Hl7EuLaboratoryIg
-title: HL7 Europe Laboratory Report
-description: This guide describes how the Laboratory Report can be represented in the European REALM.
+id: hl7.fhir.se.laboratory
+canonical: http://hl7.se/fhir/laboratory
+name:  Hl7SeLaboratoryIg
+title: HL7 Sweden Laboratory Report
+description: This guide describes how the Laboratory Report can be represented in the Swedish REALM, based on the HL7 Europe laboratory implementation guide.
 status: draft # draft | active | retired | unknown
-version: 0.2.0-ci #
+version: 0.1.0-ci #
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
+copyrightYear: 2025+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 # https://www.hl7.org/fhir/valueset-jurisdiction.html
-jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # urn:iso:std:iso:3166#EU
+jurisdiction:
+  system: urn:iso:std:iso:3166
+  code: "SE"
 publisher:
-  name:  HL7 Europe
-  url: http://hl7.eu
+  name:  HL7 Sweden
+  url: http://hl7.se
   # email: test@example.org
 copyright: >-
   Used by permission of HL7 Europe, all rights reserved Creative Commons License
